@@ -385,6 +385,13 @@ a{
         display: none;
 
 }
+.sidebar-button{
+        display: none;
+}
+
+.sidebar-nav-list{
+        display: none;
+}
 .sheet{
        display: none;
 }

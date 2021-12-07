@@ -130,8 +130,8 @@
         display: none;
         top: 0px;
         position: absolute;
-        width: 100vw;
-        height: 308.5%;
+        width: 100%;
+        height: 278vh;
         background: black;
         opacity: 0.2;
     }
@@ -140,13 +140,14 @@
         position: absolute;
         width: 68vw;
         color: #F06C64;
-        height: 308.5%;
+        height: 278vh;
         background: #2D303A;
         flex-direction: column;
         padding: 26px 20px;
         display: none;
     }
     .sidebar-button{
+        display: block;
         width: 25px;
         height: 20px;
         background: none;
@@ -173,15 +174,12 @@
         padding: 0;
         flex-direction: column;
         list-style: none;
+        display: flex;
     }
     .sidebar-nav-list__component:not(:first-child){
         margin-top: 28px;
 
     }
-    /*.sidebar-nav-list__component:nth-child(3){*/
-    /*    margin-top: 28px;*/
-
-    /*}*/
     .sidebar-nav-list__component-link{
         font-family: Lato;
         font-style: normal;
@@ -211,4 +209,5 @@
     .sidebar-nav-list__component:last-child{
         margin-left: 0;
     }
+
 }
