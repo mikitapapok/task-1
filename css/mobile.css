@@ -2,7 +2,7 @@
     .wrapper{
         width: 100%;
     }
-
+body
     .header{
         padding: 24px 135px 23px 20px;
     }
@@ -19,7 +19,9 @@
         background-size: contain;
         background-repeat: no-repeat;
     }
-
+body{
+    position: relative;
+}
 
     .slider{
         height: 20.5vh;
@@ -208,6 +210,18 @@
     }
     .sidebar-nav-list__component:last-child{
         margin-left: 0;
+    }
+
+}
+@media (min-height: 824px) {
+    .sheet{
+
+        height: 260vh;
+    }
+    .sidebar{
+
+        height: 260vh;
+
     }
 
 }
