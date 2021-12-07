@@ -1,0 +1,104 @@
+@media (min-width: 768px) and (max-width: 1024px){
+    .wrapper{
+        width: 100%;
+    }
+
+    .header{
+        padding: 35px 21px 35px;
+    }
+
+ .header-nav{
+     margin-top: 0;
+     margin-left: 191px;
+ }
+.header-nav-list__component:nth-child(2){
+    margin-left: 32px;
+}
+
+.slider{
+    height: 452px;
+    padding: 212px 25px 209px 30px;
+    background-size: cover;
+
+}
+    .details{
+        height: 675px;
+        padding: 39px 42px 45px;
+        background: #F2F2F2;
+        border-bottom: 6px solid #ffffff;
+
+    }
+    .details-text{
+        width: 687px;
+        text-align: left;
+    }
+    .details-text-margin{
+        margin-top: 18px;
+    }
+    .details-services-margin{
+        margin-top: 37px;
+    }
+    .details-services{
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+        grid-column-gap: 53px;
+        grid-row-gap: 50px;
+    }
+
+    .portfolio{
+        padding: 58px 39px 67px;
+        background-color: #2D303A;
+        border-bottom: 5px solid #323746;;
+
+    }
+
+    .portfolio-images{
+        margin-top: 27px;
+        margin-left: 1px;
+        display: grid;
+        grid-template-columns: repeat(3,216px);
+        grid-column-gap: 20px;
+        grid-row-gap: 19px;
+    }
+    .portfolio-images__component{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 184px;
+        width: 216px;
+
+        background-image: url("../images/portfolio-1.png");
+    }
+    .portfolio-sort{
+        margin-top: 10px;
+        margin-left: 2px;
+    }
+    .portfolio-description-title{
+        margin-left: 3px;
+    }
+    .footer{
+        padding: 24px 0 19px;
+        display: flex;
+        background: #2D303A;
+
+
+    }
+    .footer-copyright{
+
+        margin-left: 41px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: #666D89;
+
+    }
+    .footer-navigation{
+
+        margin-left: 429px;
+    }
+
+}
