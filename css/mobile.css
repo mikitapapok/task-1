@@ -149,8 +149,10 @@
   }
   .sidebar-nav {
     margin-top: 180px;
+  }
+  .sidebar-menu {
     position: sticky;
-    top: 180px;
+    top: 26px;
   }
   .sidebar-nav-list {
     padding: 0;
